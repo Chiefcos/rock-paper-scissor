@@ -16,7 +16,9 @@
 
       // Alerts the Computer's guess.
       alert("Computer guess: " + computerGuess);
-      
+    
+
+    // This is the outcome of the game
     if ((userGuess === "r") && (computerGuess === computerChoices[2])){
         alert("User Wins!");
     }
